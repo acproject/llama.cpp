@@ -19,6 +19,7 @@
 *.o
 *.so
 *.swp
+*.dylib
 *.tmp
 *.DS_Store
 
