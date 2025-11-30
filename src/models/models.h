@@ -422,6 +422,10 @@ struct llm_build_qwen3vl : public llm_graph_context {
 struct llm_build_qwen3vlmoe : public llm_graph_context {
     llm_build_qwen3vlmoe(const llama_model & model, const llm_graph_params & params);
 };
+
+struct llm_build_qwen3omni : public llm_graph_context {
+    llm_build_qwen3omni(const llama_model & model, const llm_graph_params & params);
+};
 struct llm_build_qwen3next : public llm_graph_context_mamba {
     llm_build_qwen3next(const llama_model & model, const llm_graph_params & params);
 private:
